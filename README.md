@@ -1,1 +1,1 @@
-# file_traversal_and_image_cropping
+# File traversal and image cropping (Python)
