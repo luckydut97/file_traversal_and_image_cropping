@@ -12,7 +12,8 @@ It can be reduced to 1/10 of the capacity by deleting the useless part of the ph
 
 ### 🔳Code Analysis
 <br>
-
+아래 코드들을 적절하게 mixing 하여 코드를 제작하였습니다.
+<br>
 #### 💻Image Cropping Code
 ```python
 import cv2
@@ -86,9 +87,9 @@ for folder_name, subfolders, filenames in os.walk('.\\test'):
         print('filename : ' + folder_name + ': ' + filename)
 ```
 <br>
-
+테스트 폴더를 순회해보겠습니다. 트리 구조는 다음과 같습니다. 
 ![](./images/foldertree.png)
 
 <br>
-
+코드 실행 결과입니다.
 ![](./images/filetraversal.png)
