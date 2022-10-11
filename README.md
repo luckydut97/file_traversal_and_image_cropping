@@ -11,9 +11,11 @@ It can be reduced to 1/10 of the capacity by deleting the useless part of the ph
 ![](./images/croppingresult.png)
 
 ### 🔳Code Analysis
+
 <br>
 아래 코드들을 적절하게 mixing 하여 코드를 제작하였습니다.
 <br>
+
 #### 💻Image Cropping Code
 ```python
 import cv2
