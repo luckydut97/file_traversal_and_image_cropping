@@ -5,6 +5,7 @@
 디렉토리의 모든 하위 디렉토리를 탐색하고 OpenCV를 사용하여 이미지를 자르고 새 그림을 저장하는 코드입니다.
 <br>
 사진에서 불필요한 부분을 삭제하여 이미지 파일 용량을 1/10로 줄일 수 있습니다.
+<
 <br>
 This is the code that traverses all subdirectories of a directory, crops the image using OpenCV, and saves a new picture.
 <br>
