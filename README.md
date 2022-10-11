@@ -99,4 +99,4 @@ for folder_name, subfolders, filenames in os.walk('.\\test'):
 코드 실행 결과입니다. test의 하위 디렉토리에 있는 League Of Legend 파일을 잘 출력하는 모습을 볼 수 있습니다.
 <br>
 
-![](./images/filetraversal.png)
+![](./images/filetraversal.png) {: width="200" height="200"}
