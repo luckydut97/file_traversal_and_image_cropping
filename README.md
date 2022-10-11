@@ -91,9 +91,11 @@ for folder_name, subfolders, filenames in os.walk('.\\test'):
 
 <br>
 테스트 폴더를 순회해보겠습니다. 트리 구조는 다음과 같습니다. 
-![](./images/foldertree.png)
 <br>
 
+![](./images/foldertree.png)
+
+<br>
 코드 실행 결과입니다.
 <br>
 
