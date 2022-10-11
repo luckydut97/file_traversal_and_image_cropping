@@ -85,7 +85,10 @@ for folder_name, subfolders, filenames in os.walk('.\\test'):
     for filename in filenames:
         print('filename : ' + folder_name + ': ' + filename)
 ```
+<br>
 
 ![](./images/foleder tree.png)
+
+<br>
 
 ![](./images/filetraversal.png)
