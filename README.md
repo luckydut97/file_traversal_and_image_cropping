@@ -11,10 +11,10 @@ It can be reduced to 1/10 of the capacity by deleting the useless part of the ph
 
 ![](./images/croppingresult.png)
 
-### 🔳image cropping 코드 분해
+### 🔳코드 분해
 <br>
 
-#### 💻Image Cropping 코드
+#### 💻Image Cropping Code
 ```python
 import cv2
 import numpy as np
@@ -39,7 +39,7 @@ cv2.waitKey(0) #입력 있을 때까지 대기
 ```
 <br>
 
-#### 💻저장 코드
+#### 💻 Save Code
 
 일단 crop된 이미지를 cut_image로 저장해보았습니다.
 <br>
@@ -51,7 +51,7 @@ cv2.imwrite(save_file, cut_image) #파일로 저장
 ```
 <br>
 
-#### 💻이미지 축소 코드
+#### 💻 Image Reduction Code
 그리고 그 crop된 이미지의 size를 줄여보았습니다. 0.6으로 줄였고, 그것을 따로 scaledown_img.jpg로 저장했습니다.
 
 ```python
