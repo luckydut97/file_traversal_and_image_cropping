@@ -49,6 +49,7 @@ save_file = 'img_crop.jpg' #저장할 이름
 cv2.imwrite(save_file, cut_image) #파일로 저장
 ```
 <br>
+
 #### 💻이미지 축소 코드
 그리고 그 crop된 이미지의 size를 줄여보았습니다. 0.6으로 줄였고, 그것을 따로 scaledown_img.jpg로 저장했습니다.
 
