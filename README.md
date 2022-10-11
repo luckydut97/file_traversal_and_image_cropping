@@ -1,6 +1,5 @@
 # Reducing the size of all photo files in a directory (Python)
 ---
-
 ## Description
 <br>
 This is the code that traverses all subdirectories of a directory, crops the image using OpenCV, and saves a new picture.
