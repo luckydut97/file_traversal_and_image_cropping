@@ -87,7 +87,7 @@ for folder_name, subfolders, filenames in os.walk('.\\test'):
 ```
 <br>
 
-![](./images/foleder tree.png)
+![](./images/folder tree.png)
 
 <br>
 
