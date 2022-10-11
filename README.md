@@ -1,4 +1,4 @@
-# File traversal and image cropping (Python)
+# Reducing the size of all photo files in a directory (Python)
 ---
 
 ## Description
