@@ -67,3 +67,23 @@ save_file = 'img_crop_scaledown.jpg' #저장할 이름
 cv2.imwrite(save_file, scaledown_img) #파일로 저장
 
 ```
+<br>
+
+#### 💻 Folder Traversal Code
+폴더를 순회하는 코드입니다. 
+```python
+import os
+for folder_name, subfolders, filenames in os.walk('.\\test'):
+    print('\n')
+    print('directory : ' + folder_name)
+    
+    #subfolder
+    for subfolder in subfolders: 
+        print('directory : '+folder_name + ': '+ subfolder)
+
+    #file in folder
+    for filename in filenames:
+        print('filename : ' + folder_name + ': ' + filename)
+```
+![](./images/foleder tree.png)
+![](./images/filetraversal.png)
