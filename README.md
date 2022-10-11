@@ -11,7 +11,7 @@ It can be reduced to 1/10 of the capacity by deleting the useless part of the ph
 
 ![](./images/croppingresult.png)
 
-### 🔳코드 분해
+### 🔳Code Analysis
 <br>
 
 #### 💻Image Cropping Code
