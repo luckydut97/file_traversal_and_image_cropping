@@ -7,8 +7,7 @@
 사진에서 불필요한 부분을 삭제하여 이미지 파일 용량을 1/10로 줄일 수 있습니다.
 <br>
 <br>
-This is the code that traverses all subdirectories of a directory, crops the image using OpenCV, and saves a new picture.
-<br>
+This is the code that traverses all subdirectories of a directory, crops the image using OpenCV, and saves a new picture. 
 It can be reduced to 1/10 of the capacity by deleting the useless part of the photo.
 <br>
 <br>
