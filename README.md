@@ -1,5 +1,5 @@
 # Reducing the size of all photo files in a directory (Python) 
----
+
 ## Description
 <br>
 디렉토리의 모든 하위 디렉토리를 탐색하고 OpenCV를 사용하여 이미지를 자르고 새 그림을 저장하는 코드입니다.
@@ -15,7 +15,7 @@ It can be reduced to 1/10 of the capacity by deleting the useless part of the ph
 ![](./readme_image/croppingresult.png)
 
 ### 🔳Code Analysis
-
+---
 <br>
 아래 기능들을 적절하게 mixing 하여 코드를 제작하였습니다.
 <br>
@@ -23,6 +23,7 @@ The code was created by mixing the functions below appropriately.
 <br>
 
 #### 💻Image Cropping Code
+---
 ```python
 import cv2
 import numpy as np
@@ -48,6 +49,7 @@ cv2.waitKey(0) #입력 있을 때까지 대기
 <br>
 
 #### 💻 Save Code
+---
 
 일단 crop된 이미지를 cut_image로 저장해보았습니다.
 <br>
@@ -63,6 +65,7 @@ cv2.imwrite(save_file, cut_image) #파일로 저장
 <br>
 
 #### 💻 Image Reduction Code
+---
 그리고 그 crop된 이미지의 size를 줄여보았습니다. 0.6으로 줄였고, 그것을 따로 scaledown_img.jpg로 저장했습니다.
 <br>
 And I tried reducing the size of the cropped image. I reduced it to 0.6 and saved it separately as scaledown_img.jpg.
@@ -84,6 +87,7 @@ cv2.imwrite(save_file, scaledown_img) #파일로 저장
 <br>
 
 #### 💻 Folder Traversal Code
+---
 폴더를 순회하는 코드입니다. 
 <br>
 This is the code to iterate through the folders.
